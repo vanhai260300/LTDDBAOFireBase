@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.foody">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PageHomeDetailFood.ReservationActivity"></activity>
+        <activity android:name=".PageHomeDetailFood.DeliveryActivity" />
+        <activity android:name=".PageHomeDetailFood.DiscoveryActivity" />
+        <activity android:name=".PageNoti.System" />
+        <activity android:name=".PageAccount.vi_voucher" />
+        <activity android:name=".PageAccount.payment" />
+        <activity android:name=".PageAccount.moibanbe" />
+        <activity android:name=".PageAccount.gopy" />
+        <activity android:name=".PageAccount.chinhsach" />
+        <activity android:name=".PageAccount.caidat" />
+        <activity android:name=".PageAccount.activity_hoadon" />
+        <activity android:name=".PageAccount.MainAccountActivity" />
+        <activity android:name=".PageHomeDetailFood.DetailFood" />
+        <activity android:name=".LoginsdtChild" />
+        <activity android:name=".Home" />
+        <activity android:name=".Login" />
+        <activity android:name=".PageNoti.Detail_noti" />
+        <activity android:name=".Loginsdt" />
+        <activity android:name=".Search.Search"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAFj-x2h-SHTzpeyalGR2cijCIzsJ8Quj4" />
+    </application>
+
+</manifest>

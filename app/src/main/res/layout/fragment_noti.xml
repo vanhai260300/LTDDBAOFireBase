@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PageNoti.NotiFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="#DC143C"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+
+                android:background="#DC143C"
+                android:id="@+id/btnimgsystem"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_setting" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130sp"
+                android:layout_marginTop="8dp"
+                android:text="Thông báo"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:background="#DC143C"
+                android:id="@+id/btnseach"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_search" />
+
+        </LinearLayout>
+        <com.google.android.material.tabs.TabLayout
+            android:layout_marginTop="45dp"
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FDF5E6"
+            app:tabSelectedTextColor="@color/colorAccent" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="555dp">
+
+    </androidx.viewpager.widget.ViewPager>
+</FrameLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".PageNoti.CuatoiFragment">
+
+    <!-- TODO: Update blank fragment layout
+    <ListView
+        android:id="@+id/list_foods2"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="172dp"
+        android:layout_height="170dp"
+        android:src="@drawable/erorr"
+        android:layout_gravity="center"/>
+</FrameLayout>

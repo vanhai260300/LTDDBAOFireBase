@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">foody</string>
+    <string name="title_activity_notification">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="home_fragment">Home fragment</string>
+    <string name="favorite_fragment">Favorite blank fragment</string>
+    <string name="my_page_fragment">My page blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

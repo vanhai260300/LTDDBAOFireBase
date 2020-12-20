@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/im_test"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/im_test"
+        android:id="@+id/tv_langName"
+        android:layout_alignTop="@+id/im_test"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:text="Text"
+        android:fontFamily="sans-serif-light"
+        android:textSize="15sp"
+        />
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/im_test"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/right"/>
+
+</LinearLayout>
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Loginsdt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#DC143C"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/imgback"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:background="#DC143C"
+            android:padding="5dp"
+            android:src="@drawable/ic_before" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Đăng nhập bằng số điện thoại"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_marginTop="60dp"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logofoody" />
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="347dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/radius_button"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Vui lòng nhập số điện thoại"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:backgroundTint="#fff" />
+    <Button
+        android:id="@+id/btntieptuc"
+        android:layout_width="345dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/radius_button"
+        android:text="Tiếp tục"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="#FF6347"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputPassword" />
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:textSize="13sp"
+        android:text="Khi chọn Tiếp tục, bạn đồng ý với Điều khoản sử dụng và chính sách bảo mật của Foody"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
